@@ -40,7 +40,7 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\icon_128x128.png" />
+    <Content Include="images\Default.png" />
     <Content Include="scripts\VSS.SDK.js" />
     <Content Include="scripts\VSS.SDK.min.js" />
     <Content Include="DashboardWidget.html" />

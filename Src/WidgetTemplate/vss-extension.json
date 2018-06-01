@@ -14,9 +14,7 @@
         "default": "images/Default.png"
     },
     "categories": [
-        "YourWidgetCategory1",
-        "YourWidgetCategory2",
-        "YourWidgetCategory3"
+        "Developer samples"
     ],
     "tags": [
         "YourWidgetTag1",
