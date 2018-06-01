@@ -44,6 +44,7 @@
     <Content Include="scripts\VSS.SDK.js" />
     <Content Include="scripts\VSS.SDK.min.js" />
     <Content Include="dashboard-widget.html" />
+    <Content Include="YourvsixfileExtensionwillappearhereafter_tfx_create_extension.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
