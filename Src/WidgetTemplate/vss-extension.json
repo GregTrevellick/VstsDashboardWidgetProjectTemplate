@@ -33,7 +33,7 @@
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
                 "catalogIconUrl:": "images/CatalogIconUrl.png",
                 "previewImageUrl": "images/PreviewIconUrl.png",
-                "uri": "DashboardWidget.html",
+                "uri": "dashboard-widget.html",
                 "supportedSizes": [
                     {
                         "rowSpan": 2,
@@ -46,7 +46,7 @@
     ],
     "files": [
         {
-            "path": "DashboardWidget.html",
+            "path": "dashboard-widget.html",
             "addressable": true
         },
         {
@@ -60,10 +60,10 @@
     ],
     "content": {
         "details": {
-            "path": "Overview.md"
+            "path": "artefacts/Overview.md"
         },
         "license": {
-            "path": "Licence.md"
+            "path": "artefacts/Licence.md"
         }
     },
     "links": {

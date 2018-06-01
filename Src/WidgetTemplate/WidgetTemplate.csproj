@@ -35,15 +35,15 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Licence.md" />
-    <None Include="Overview.md" />
+    <None Include="artefacts\Licence.md" />
+    <None Include="artefacts\Overview.md" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\Default.png" />
     <Content Include="scripts\VSS.SDK.js" />
     <Content Include="scripts\VSS.SDK.min.js" />
-    <Content Include="DashboardWidget.html" />
+    <Content Include="dashboard-widget.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
