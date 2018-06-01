@@ -1,5 +1,7 @@
 ﻿edit your html/css/js
 
+test your html page locally
+
 edit manifest [Manifest reference](https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts)
 
 notably: 
