@@ -1,0 +1,91 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-extensions-tweets-vsts",
+    "version": "0.0.1",
+    "name": "YourWidgetNameHereNoSpaces",
+    "description": "Brief description of your widget here",
+    "publisher": "YourNameHereNoSpaces",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "images/icon_128x128.png"
+    },
+    "categories": [
+        "Collaborate"
+    ],
+    "tags": [
+        "YourTag1",
+        "YourTag2",
+        "YourTag3"
+    ],
+    "contributions": [
+        {
+            "id": "VSSRegisterName_Tweet@Vsts",
+            "type": "ms.vss-dashboards-web.widget",
+            "targets": [
+                "ms.vss-dashboards-web.widget-catalog"
+            ],
+            "properties": {
+                "name": "VstsTweets",
+                "description": "Display tweets in your project dashboard",
+                "catalogIconUrl:": "images/Icon_twitter_avatar_128x128.png",
+                "previewImageUrl": "images/Icon_twitter_avatar_128x128.png",
+                "uri": "Widget.html",
+                "supportedSizes": [
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 3
+                    }
+                ],
+                "supportedScopes": [ "project_team" ]
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "DashboardWidget.html",
+            "addressable": true
+        },
+        {
+            "path": "scripts",
+            "addressable": true
+        },
+        {
+            "path": "images",
+            "addressable": true
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "Overview.md"
+        },
+        "license": {
+            "path": "Licence.md"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-vsts"
+        },
+        "repository": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+        },
+        "issues": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+    },
+    "branding": {
+        "color": "rgb(1, 122, 215)",
+        "theme": "dark"
+    },
+    "galleryFlags": [
+        "Public"
+    ]    
+}

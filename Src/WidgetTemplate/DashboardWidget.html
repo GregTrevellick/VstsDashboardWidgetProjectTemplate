@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Vsts Dashboard Widget Project Template - replace this with your title</title>
+    <script src="scripts/VSS.SDK.min.js"></script>
+    <body>
+        <script type="text/javascript">
+            VSS.init({
+                explicitNotifyLoaded: true,
+                usePlatformStyles: true
+            });
+            VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
+                WidgetHelpers.IncludeWidgetStyles();
+                VSS.register("YourWidgetNameHere_NoSpaces", function () {
+                    return {
+                        load: function (widgetSettings) {
+                            return WidgetHelpers.WidgetStatusHelper.Success();
+                        }
+                    }
+                });
+                VSS.notifyLoadSucceeded();
+            });
+        </script>
+
+        <div class="widget">
+            <p>
+                Hello World
+                <script type="text/javascript">alert("foo bar")</script>
+            </p>
+        </div>
+
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿
+
+VSS.register("YourWidgetNameHere", function () {        VS        VSS.register("YourWidgetNameHere_NoSpaces", function () {
+
+
+
