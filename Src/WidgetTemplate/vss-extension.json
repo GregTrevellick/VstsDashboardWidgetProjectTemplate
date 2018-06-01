@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-YourWidgetId",
+    "id": "YourWidgetId-UniqueAmongExtensionsFromSamePublisher",
     "version": "0.0.1",
     "name": "YourWidgetName",
     "description": "YourWidgetDescription (brief free-text description)",

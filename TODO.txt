@@ -4,3 +4,4 @@ VSS.register("YourWidgetNameHere", function () {        VS        VSS.register("
 
 
 
+https://github.com/Microsoft/vsts-extension-samples/tree/master/widgets
