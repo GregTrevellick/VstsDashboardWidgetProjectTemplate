@@ -6,4 +6,6 @@
 
 [Upload your widget to the Visual Studio Marketplace](https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts)
 
+https://github.com/Microsoft/vss-web-extension-sdk
+
 

@@ -29,6 +29,8 @@ See the [change log](CHANGELOG.md) for release history.
 
 ## Credits
 
+https://github.com/Microsoft/vss-web-extension-sdk
+
 https://marketplace.visualstudio.com/items?itemName=JoshGarverick.VSTSExtensionProjectTemplates
 
 https://channel9.msdn.com/Series/Visual-Studio-ALM-Rangers-Demos/Extensions-101-Intro-to-VS-Team-Services-Extensions
