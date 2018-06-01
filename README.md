@@ -29,6 +29,27 @@ See the [change log](CHANGELOG.md) for release history.
 
 ## Credits
 
+https://marketplace.visualstudio.com/items?itemName=JoshGarverick.VSTSExtensionProjectTemplates
+
+https://channel9.msdn.com/Series/Visual-Studio-ALM-Rangers-Demos/Extensions-101-Intro-to-VS-Team-Services-Extensions
+
+https://www.visualstudio.com/team-services/extend/
+
+https://docs.microsoft.com/en-us/vsts/extend/get-started/node?view=vsts
+
+https://docs.microsoft.com/en-us/vsts/extend/develop/samples-overview?view=vsts
+
+https://docs.microsoft.com/en-gb/vsts/extend/index?view=vsts
+
+https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts
+
+https://marketplace.visualstudio.com/items?itemName=ms-samples.samples-contributions-guide
+
+https://docs.microsoft.com/en-us/vsts/extend/publish/publicize?view=vsts
+
+[upload your widget to the Visual Studio Marketplace](https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts)
+
+
 
 ## License
 
