@@ -43,7 +43,6 @@
     <Content Include="images\icon_128x128.png" />
     <Content Include="scripts\VSS.SDK.js" />
     <Content Include="scripts\VSS.SDK.min.js" />
-    <Content Include="TODO.txt" />
     <Content Include="DashboardWidget.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
