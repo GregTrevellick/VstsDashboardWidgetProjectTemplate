@@ -1,2 +1,0 @@
-﻿but of course it wont be included in sln
-and hence should be git ignored

@@ -1,4 +1,18 @@
-﻿
+﻿.net standard
+
+F5 to run it 
+
+
+.gitignore the generated .vsix file 
+
+
+
+
+
+
+
+
+
 
 VSS.register("YourWidgetNameHere", function () {        VS        VSS.register("YourWidgetNameHere_NoSpaces", function () {
 

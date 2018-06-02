@@ -11,7 +11,7 @@
         }
     ],
     "icons": {
-        "default": "images/Default.png"
+        "default": "app/images/Default.png"
     },
     "categories": [
         "Developer samples"
@@ -31,8 +31,8 @@
             "properties": {
                 "name": "YourWidgetContributionsPropertiesName",
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
-                "catalogIconUrl:": "images/CatalogIconUrl.png",
-                "previewImageUrl": "images/PreviewIconUrl.png",
+                "catalogIconUrl:": "app/images/CatalogIconUrl.png",
+                "previewImageUrl": "app/images/PreviewIconUrl.png",
                 "uri": "dashboard-widget.html",
                 "supportedSizes": [
                     {
@@ -60,10 +60,10 @@
     ],
     "content": {
         "details": {
-            "path": "artefacts/Overview.md"
+            "path": "Overview.md"
         },
         "license": {
-            "path": "artefacts/Licence.md"
+            "path": "Licence.md"
         }
     },
     "links": {

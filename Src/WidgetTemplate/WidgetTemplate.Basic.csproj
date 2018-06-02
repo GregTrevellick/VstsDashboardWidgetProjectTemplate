@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{20EA3300-5D40-4A5C-9717-D67017751B23}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>WidgetTemplate</RootNamespace>
-    <AssemblyName>WidgetTemplate</AssemblyName>
+    <RootNamespace>WidgetTemplate.Basic</RootNamespace>
+    <AssemblyName>WidgetTemplate.Basic</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,16 +35,15 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="artefacts\Licence.md" />
-    <None Include="artefacts\Overview.md" />
+    <None Include="Licence.md" />
+    <None Include="Overview.md" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\Default.png" />
-    <Content Include="scripts\VSS.SDK.js" />
-    <Content Include="scripts\VSS.SDK.min.js" />
-    <Content Include="dashboard-widget.html" />
-    <Content Include="YourvsixfileExtensionwillappearhereafter_tfx_create_extension.txt" />
+    <Content Include="app\images\Default.png" />
+    <Content Include="app\scripts\VSS.SDK.js" />
+    <Content Include="app\scripts\VSS.SDK.min.js" />
+    <Content Include="app\dashboard-widget.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
