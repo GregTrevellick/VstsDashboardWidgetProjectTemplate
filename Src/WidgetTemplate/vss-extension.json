@@ -36,8 +36,8 @@
                 "uri": "dashboard-widget.html",
                 "supportedSizes": [
                     {
-                        "rowSpan": 1,
-                        "columnSpan": 3
+                        "rowSpan": 4,
+                        "columnSpan": 4
                     }
                 ],
                 "supportedScopes": [ "project_team" ]
