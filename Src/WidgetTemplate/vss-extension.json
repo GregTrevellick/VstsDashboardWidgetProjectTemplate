@@ -46,15 +46,15 @@
     ],
     "files": [
         {
-            "path": "dashboard-widget.html",
+            "path": "app/dashboard-widget.html",
             "addressable": true
         },
         {
-            "path": "scripts",
+            "path": "app/scripts",
             "addressable": true
         },
         {
-            "path": "images",
+            "path": "app/images",
             "addressable": true
         }
     ],
