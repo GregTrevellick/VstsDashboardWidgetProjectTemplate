@@ -40,10 +40,13 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\images\Default.png" />
-    <Content Include="app\scripts\VSS.SDK.js" />
-    <Content Include="app\scripts\VSS.SDK.min.js" />
+    <Content Include="app\Content\site.css" />
+    <Content Include="app\Images\Screenshot.png" />
+    <Content Include="app\Images\Default.png" />
+    <Content Include="app\Scripts\SDK\VSS.SDK.js" />
+    <Content Include="app\Scripts\SDK\VSS.SDK.min.js" />
     <Content Include="app\dashboard-widget.html" />
+    <Content Include="app\Scripts\app.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -11,7 +11,7 @@
         }
     ],
     "icons": {
-        "default": "app/images/Default.png"
+        "default": "app/Images/Default.png"
     },
     "categories": [
         "Developer samples"
@@ -36,7 +36,7 @@
                 "uri": "dashboard-widget.html",
                 "supportedSizes": [
                     {
-                        "rowSpan": 2,
+                        "rowSpan": 1,
                         "columnSpan": 3
                     }
                 ],
@@ -50,11 +50,15 @@
             "addressable": true
         },
         {
-            "path": "app/scripts",
+            "path": "app/Content",
             "addressable": true
         },
         {
-            "path": "app/images",
+            "path": "app/Images",
+            "addressable": true
+        },
+        {
+            "path": "app/Scripts",
             "addressable": true
         }
     ],
@@ -68,19 +72,26 @@
     },
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-vsts"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=YourWidgetPublisher.YourWidgetId-UniqueAmongExtensionsFromSamePublisher"
         },
         "repository": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+            "uri": "https://www.your_repository_url.com"
         },
         "issues": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+            "uri": "https://www.your_issues_url.com"
+        },
+        "learn": {
+            "uri": "https://www.your_learn_url.com"
+        },
+        "support": {
+            "uri": "https://www.your_support_url.com"
         }
     },
-    "repository": {
-        "type": "git",
-        "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
-    },
+    "screenshots": [
+        {
+            "path": "app/Images/Screenshot.png"
+        }
+    ],
     "branding": {
         "color": "rgb(1, 122, 215)",
         "theme": "dark"

@@ -2,30 +2,43 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>My Incredible Widget</title>
-    <script src="scripts/VSS.SDK.min.js"></script>
+    <link href="Content/site.css" rel="stylesheet" />
+    <script src="Scripts/SDK/VSS.SDK.min.js"></script>
+    <script src="Scripts/app.js"></script>
 </head>
-    <body bgcolor="chucknorris">
-        <script type="text/javascript">
-            VSS.init({
-                explicitNotifyLoaded: true,
-                usePlatformStyles: true
-            });
-            VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
-                WidgetHelpers.IncludeWidgetStyles();
-                VSS.register("YourWidgetNameHere_NoSpaces", function () {
-                    return {
-                        load: function (widgetSettings) {
-                            return WidgetHelpers.WidgetStatusHelper.Success();
-                        }
-                    }
-                });
-                VSS.notifyLoadSucceeded();
-            });
-        </script>
-        
-        <div style="font-family:Courier New, Courier, monospace; color:lightblue;">
-            Replace this html, css and javascript with your own html, css and javascript (typescript, angular, aurelia, knockout, etc). Good luck and be good.
-            <script type="text/javascript">alert("Hello Widget World !")</script>
+<body>
+    <script type="text/javascript">
+        alert("Hello Widget World !")
+    </script>
+    <div class="widget">
+        <h2 class="title">Widget title</h2>
+        <div class="content">
+            Replace this html, css and javascript with your own html, css and javascript (including typescript and any javascript frameworks).
+            <p>
+                Good luck and be good.
+            <p>
+                You can even do things like this in the vss-extension.json file
+            <p>
+                "badges": [
+                {
+                "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
+                "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
+                "description": "AppVeyor build for the project"
+                }
+                ],
+            <p>
+                "repository": {
+                "type": "git",
+                "uri": "https://github.com/YourWidgetPublisher/VsixTwitterWidget"
+                },
+            <p>
+                supportsizes
+            <p>
+                When a widget supports multiple sizes, the first size in the array is the default size of the widget.
+                One row/column corresponds to 160px.
+                Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
+                The maximum supported size is 4x4.
         </div>
-    </body>
+    </div>
+</body>
 </html>

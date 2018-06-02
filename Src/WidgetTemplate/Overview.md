@@ -1,6 +1,4 @@
-This file should contain an overview of your widget.
-
-It is a markdown so can (and probably should) contain some screen shots of your widget.
+This file should contain an overview of your widget, potentially including some screen shots of your widget.
 
 It is the content of this file that appears on the Visual Studio Marketplace website hosting your widget ([click here for an example](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-vsts)) should you choose to have your widget hosted there.
 
