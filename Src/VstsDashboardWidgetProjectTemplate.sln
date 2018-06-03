@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trevellick.WidgetTemplate.Basic.NetStd", "Trevellick.WidgetTemplate.Basic.NetStd\Trevellick.WidgetTemplate.Basic.NetStd.csproj", "{CCE4CB22-FC8F-4E8A-9460-D6003109AEDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WidgetTemplate.Basic.NetStd", "Trevellick.WidgetTemplate.Basic.NetStd\WidgetTemplate.Basic.NetStd.csproj", "{CCE4CB22-FC8F-4E8A-9460-D6003109AEDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
