@@ -11,43 +11,17 @@
         alert("Hello Widget World !")
     </script>
     <div class="widget">
-        <h2 class="title">Widget title</h2>
+        <h2 class="title">Your Widget Title</h2>
         <div class="content">
-            Replace this html, css and javascript with your own html, css and javascript (including typescript and any javascript frameworks).
             <p>
-                Good luck and be good.
-                <p>
-                    dont forget to edit the images
-            <p>
-                test your html page locally and when ready run this command in the same folder as the .json file "tfx extension create --manifest-globs vss-extension.json" this will create a file called "YourWidgetPublisher.vsts-extensions-YourWidgetId-0.0.1.vsix" in the same folder as .json file
-            <p>
-                You can even edit your manifest to do things like this in the vss-extension.json file - see the manifest reference at https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts
-            <p>
-                "badges": [
-                {
-                "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
-                "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
-                "description": "AppVeyor build for the project"
-                }
-                ],
-            <p>
-                "repository": {
-                "type": "git",
-                "uri": "https://github.com/YourWidgetPublisher/VsixTwitterWidget"
-                },
-            <p>
-                supportsizes
-            <p>
-                When a widget supports multiple sizes, the first size in the array is the default size of the widget.
-                One row/column corresponds to 160px.
-                Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
-                The maximum supported size is 4x4.
-            <p>
-                when you want to deploy to vsmp https://docs.microsoft.com/en-us/vsts/extend/get-started/node?view=vsts
-            <p>
-                when you are ready to upload your widget to the Visual Studio Marketplace https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts
-            <p>
-                when you want to make public not just internal https://docs.microsoft.com/en-us/vsts/extend/publish/publicize?view=vsts
+                To create your widget follow the official Microsoft documentation <a href="https://docs.microsoft.com/en-us/vsts/extend/?view=vsts
+">here</a> and <a href="https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts">here</a>, but it essentially boils down to the following steps:
+               <ol>
+                   <li>Replace the default html, css, images and javascript in this project with your own (can include typescript and javascript frameworks) and test locally just like any other html page</li>
+                   <li>Edit the manifest file (vss-extension.json) to suit your extension as per the <a href="https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts">official documentation</a></li>
+                   <li>Package and publish (privately or publicly) your extension as per the <a href="https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts">official documentation</a> </li>
+               </ol>
+            </p>
         </div>
     </div>
 </body>
