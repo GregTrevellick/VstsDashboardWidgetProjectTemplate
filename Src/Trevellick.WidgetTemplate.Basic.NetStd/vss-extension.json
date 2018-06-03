@@ -11,7 +11,7 @@
         }
     ],
     "icons": {
-        "default": "app/Images/Default.png"
+        "default": "app/Images/DefaultIcon.png"
     },
     "categories": [
         "Developer samples"
