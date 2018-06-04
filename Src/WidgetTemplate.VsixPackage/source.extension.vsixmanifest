@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="2d219ff6-5d7e-4a71-98b3-0705d9e0a142" Version="1.0" Language="en-US" Publisher="Greg Trevellick" />
-        <DisplayName>WidgetTemplate.VsixPackage</DisplayName>
+        <DisplayName>VstsDashboardWidgetProjectTemplate</DisplayName>
         <Description xml:space="preserve">A project template for creating VSTS dashboard widgets</Description>
         <MoreInfo>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate</MoreInfo>
         <License>LICENSE.txt</License>
@@ -10,7 +10,7 @@
         <ReleaseNotes>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
         <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
         <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
-        <Tags>tfs, vsts, dashboard, widget</Tags>
+        <Tags>tfs, vsts, dashboard, widget, template, project template, vsix</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
