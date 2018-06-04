@@ -19,11 +19,13 @@
 
 A Visual Studio project template for Visual Studio Team Services dashboard widgets.
 
+<!--
 To use this project template 
 1. add to your VS ide
 1. project > new > select the template
 1. F5 the html page and edit to your hearts content
 1. publish
+-->
 
 If you like this **free** extension please take just a few seconds to give it a rating.
 
@@ -33,6 +35,8 @@ See the [change log](CHANGELOG.md) for release history.
 
 ## Credits
 
+TODO
+<!--
 https://github.com/Microsoft/vss-web-extension-sdk
 
 https://github.com/Microsoft/vsts-extension-samples/tree/master/widgets
@@ -56,6 +60,7 @@ https://marketplace.visualstudio.com/items?itemName=ms-samples.samples-contribut
 https://docs.microsoft.com/en-us/vsts/extend/publish/publicize?view=vsts
 
 [upload your widget to the Visual Studio Marketplace](https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts)
+-->
 
 ## License
 
