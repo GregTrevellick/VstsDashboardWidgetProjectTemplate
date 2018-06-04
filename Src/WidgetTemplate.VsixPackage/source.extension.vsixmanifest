@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="2d219ff6-5d7e-4a71-98b3-0705d9e0a142" Version="1.0" Language="en-US" Publisher="Greg Trevellick" />
+        <DisplayName>WidgetTemplate.VsixPackage</DisplayName>
+        <Description xml:space="preserve">A project template for creating VSTS dashboard widgets</Description>
+        <MoreInfo>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://docs.microsoft.com/en-us/vsts/extend/?view=vsts</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
+        <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
+        <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
+        <Tags>tfs, vsts, dashboard, widget</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="WidgetTemplate" TargetVersion="[15.0,16.0)" d:TargetPath="|WidgetTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
