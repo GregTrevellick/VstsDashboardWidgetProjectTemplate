@@ -57,15 +57,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="WidgetTemplateArtefacts\AssemblyInfo.cs" />
-    <None Include="WidgetTemplateArtefacts\ProjectTemplate.csproj" />
+    <None Include="AssemblyInfo.cs" />
+    <None Include="ProjectTemplate.csproj" />
     <None Include="WidgetApp\artefacts\Licence.md" />
     <None Include="WidgetApp\artefacts\Overview.md" />
     <None Include="WidgetApp\vss-extension.json" />
-    <None Include="WidgetTemplateArtefacts\WidgetTemplate.ico" />
+    <None Include="WidgetTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="WidgetTemplateArtefacts\WidgetTemplate.vstemplate">
+    <VSTemplate Include="WidgetTemplate.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>

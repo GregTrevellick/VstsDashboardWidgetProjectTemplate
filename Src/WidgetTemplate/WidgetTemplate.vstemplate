@@ -14,8 +14,17 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-      <!--<ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>-->
-    </Project>
+		<ProjectItem TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+		<ProjectItem>WidgetApp\app\Content\site.css</ProjectItem>
+		<ProjectItem>WidgetApp\app\Images\DefaultIcon.png</ProjectItem>
+		<ProjectItem>WidgetApp\app\Images\Screenshot.png</ProjectItem>
+		<ProjectItem>WidgetApp\app\Scripts\SDK\VSS.SDK.js</ProjectItem>
+		<ProjectItem>WidgetApp\app\Scripts\SDK\VSS.SDK.min.js</ProjectItem>		
+		<ProjectItem>WidgetApp\app\Scripts\app.js</ProjectItem>
+		<ProjectItem OpenInWebBrowser="true">WidgetApp\app\dashboard-widget.html</ProjectItem>
+		<ProjectItem>WidgetApp\artefacts\Licence.md</ProjectItem>
+		<ProjectItem>WidgetApp\artefacts\Overview.md</ProjectItem>
+		<ProjectItem>WidgetApp\vss-extension.json</ProjectItem>
+	</Project>
   </TemplateContent>
 </VSTemplate>
