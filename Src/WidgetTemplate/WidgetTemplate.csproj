@@ -61,7 +61,7 @@
     <None Include="WidgetTemplateArtefacts\ProjectTemplate.csproj" />
     <None Include="WidgetApp\artefacts\Licence.md" />
     <None Include="WidgetApp\artefacts\Overview.md" />
-    <None Include="WidgetApp\artefacts\vss-extension.json" />
+    <None Include="WidgetApp\vss-extension.json" />
     <None Include="WidgetTemplateArtefacts\WidgetTemplate.ico" />
   </ItemGroup>
   <ItemGroup>

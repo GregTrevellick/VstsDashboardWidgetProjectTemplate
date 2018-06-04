@@ -64,10 +64,10 @@
     ],
     "content": {
         "details": {
-            "path": "Overview.md"
+            "path": "artefacts/Overview.md"
         },
         "license": {
-            "path": "Licence.md"
+            "path": "artefacts/Licence.md"
         }
     },
     "links": {
