@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="2d219ff6-5d7e-4a71-98b3-0705d9e0a142" Version="1.0" Language="en-US" Publisher="Greg Trevellick" />
-        <DisplayName>VstsDashboardWidgetProjectTemplate</DisplayName>
+        <DisplayName>VSTS Dashboard Widget Project Template</DisplayName>
         <Description xml:space="preserve">A project template for creating VSTS dashboard widgets</Description>
         <MoreInfo>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate</MoreInfo>
         <License>LICENSE.txt</License>
