@@ -4,27 +4,27 @@
     <Name>VSTS Dashboard Widget</Name>
     <Description>A project template for creating VSTS dashboard widgets</Description>
     <Icon>WidgetTemplate.ico</Icon>
-    <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+	<ProjectType>CSharp</ProjectType>
+	<RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>078b17e8-e9d3-49d3-a6d8-12a6a7410411</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>WidgetTemplate</DefaultName>
+    <DefaultName>VstsDashboardWidget</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
 		<ProjectItem TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-		<ProjectItem>WidgetApp\app\Content\site.css</ProjectItem>
-		<ProjectItem>WidgetApp\app\Images\DefaultIcon.png</ProjectItem>
-		<ProjectItem>WidgetApp\app\Images\Screenshot.png</ProjectItem>
-		<ProjectItem>WidgetApp\app\Scripts\SDK\VSS.SDK.js</ProjectItem>
-		<ProjectItem>WidgetApp\app\Scripts\SDK\VSS.SDK.min.js</ProjectItem>		
-		<ProjectItem>WidgetApp\app\Scripts\app.js</ProjectItem>
-		<ProjectItem OpenInWebBrowser="true">WidgetApp\app\dashboard-widget.html</ProjectItem>
-		<ProjectItem>WidgetApp\artefacts\Licence.md</ProjectItem>
-		<ProjectItem>WidgetApp\artefacts\Overview.md</ProjectItem>
-		<ProjectItem>WidgetApp\vss-extension.json</ProjectItem>
+		<ProjectItem>app\Content\site.css</ProjectItem>
+		<ProjectItem>app\Images\DefaultIcon.png</ProjectItem>
+		<ProjectItem>app\Images\Screenshot.png</ProjectItem>
+		<ProjectItem>app\Scripts\SDK\VSS.SDK.js</ProjectItem>
+		<ProjectItem>app\Scripts\SDK\VSS.SDK.min.js</ProjectItem>		
+		<ProjectItem>app\Scripts\app.js</ProjectItem>
+		<ProjectItem OpenInWebBrowser="true">app\dashboard-widget.html</ProjectItem>
+		<ProjectItem>artefacts\Licence.md</ProjectItem>
+		<ProjectItem>artefacts\Overview.md</ProjectItem>
+		<ProjectItem>vss-extension.json</ProjectItem>
 	</Project>
   </TemplateContent>
 </VSTemplate>
