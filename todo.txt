@@ -1,0 +1,13 @@
+FOR THE WIDGET, NOT THE VSIX TEMPLATE !
+
+cd C:\Users\gtrev\Source\Repos\VstsDashboardWidgetProjectTemplate\Src\WidgetTemplate
+
+[one-off] npm i -g tfx-cli
+
+tfx extension create --manifest-globs vss-extension.json   (n.b. auto-increments version nbr in vss-extension.json)
+
+VSMP > edits > Share > GregTrevellick > Enter
+
+VSTS home > Cog > Extensions > Click the extension > Launches MP site > Get it free > Install
+
+Project dashboard > Bottom RHS > Click plus > Scroll down and select extension

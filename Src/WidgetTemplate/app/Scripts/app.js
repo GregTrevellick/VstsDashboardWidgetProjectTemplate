@@ -9,7 +9,6 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
     WidgetHelpers.IncludeWidgetStyles();
     WidgetHelpers.IncludeWidgetConfigurationStyles();
 
-
     var registerWidget = function () {
         return {
             load: function (widgetSettings) {
