@@ -4,7 +4,11 @@ VSS.init({
 });
 
 VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
+
+    //https://docs.microsoft.com/en-us/vsts/extend/develop/styles-from-widget-sdk?view=vsts
     WidgetHelpers.IncludeWidgetStyles();
+    WidgetHelpers.IncludeWidgetConfigurationStyles();
+
 
     var registerWidget = function () {
         return {
