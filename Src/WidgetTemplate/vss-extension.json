@@ -31,9 +31,9 @@
             "properties": {
                 "name": "YourWidgetContributionsPropertiesName",
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
-                "catalogIconUrl:": "app/images/CatalogIconUrl.png",
-                "previewImageUrl": "app/images/PreviewIconUrl.png",
-                "uri": "dashboard-widget.html",
+                "catalogIconUrl:": "artefacts/CatalogIconUrl.png",
+                "previewImageUrl": "artefacts/PreviewIconUrl.png",
+                "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
                     {
                         "rowSpan": 4,

@@ -21,8 +21,10 @@
 		<ProjectItem>app\Scripts\SDK\VSS.SDK.min.js</ProjectItem>		
 		<ProjectItem>app\Scripts\app.js</ProjectItem>
 		<ProjectItem OpenInWebBrowser="true">app\dashboard-widget.html</ProjectItem>
+		<ProjectItem>artefacts\CatalogIcon.png</ProjectItem>
 		<ProjectItem>artefacts\Licence.md</ProjectItem>
 		<ProjectItem>artefacts\Overview.md</ProjectItem>
+		<ProjectItem>artefacts\PreviewIcon.png</ProjectItem>
 		<ProjectItem>artefacts\Screenshot.png</ProjectItem>
 		<ProjectItem>vss-extension.json</ProjectItem>
 	</Project>
