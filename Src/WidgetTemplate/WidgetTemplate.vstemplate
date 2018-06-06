@@ -17,13 +17,13 @@
 		<ProjectItem TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
 		<ProjectItem>app\Content\site.css</ProjectItem>
 		<ProjectItem>app\Images\DefaultIcon.png</ProjectItem>
-		<ProjectItem>app\Images\Screenshot.png</ProjectItem>
 		<ProjectItem>app\Scripts\SDK\VSS.SDK.js</ProjectItem>
 		<ProjectItem>app\Scripts\SDK\VSS.SDK.min.js</ProjectItem>		
 		<ProjectItem>app\Scripts\app.js</ProjectItem>
 		<ProjectItem OpenInWebBrowser="true">app\dashboard-widget.html</ProjectItem>
 		<ProjectItem>artefacts\Licence.md</ProjectItem>
 		<ProjectItem>artefacts\Overview.md</ProjectItem>
+		<ProjectItem>artefacts\Screenshot.png</ProjectItem>
 		<ProjectItem>vss-extension.json</ProjectItem>
 	</Project>
   </TemplateContent>

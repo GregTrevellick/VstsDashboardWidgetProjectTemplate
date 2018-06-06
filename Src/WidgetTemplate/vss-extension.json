@@ -89,14 +89,11 @@
     },
     "screenshots": [
         {
-            "path": "app/Images/Screenshot.png"
+            "path": "artefacts/Screenshot.png"
         }
     ],
     "branding": {
         "color": "rgb(1, 122, 215)",
         "theme": "dark"
-    },
-    "galleryFlags": [
-        "Public"
-    ]
+    }
 }

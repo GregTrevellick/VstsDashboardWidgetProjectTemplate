@@ -69,7 +69,6 @@
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="app\Scripts\SDK\VSS.SDK.js" />
   </ItemGroup>
@@ -83,7 +82,7 @@
     <None Include="app\Images\DefaultIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app\Images\Screenshot.png" />
+    <None Include="artefacts\Screenshot.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Content\site.css" />
