@@ -25,6 +25,8 @@ See the [change log](CHANGELOG.md) for release history.
 
 ![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen0.png?raw=true)
 
+![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen1.png?raw=true)
+
 <!--VSMM readme end-->
 
 ## Credits
