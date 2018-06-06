@@ -23,7 +23,11 @@ Contributions welcome [here][GitHubRepoPullRequestsURL].
 
 See the [change log](CHANGELOG.md) for release history.
 
+When you create a new project...
+
 ![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen0.png?raw=true)
+
+...here's what you get:
 
 ![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen1.png?raw=true)
 
