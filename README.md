@@ -1,4 +1,10 @@
 [VersionNumberBadgeURL]: https://vsmarketplacebadge.apphb.com/version/GregTrevellick.VsixFootie.svg
+[GitHubRepoURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate
+[GitHubRepoIssuesURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/issues
+[VisualStudioURL]: https://www.visualstudio.com/
+[VSMarketplaceUrl]: https://marketplace.visualstudio.com/search?term=trevellick&target=VS&sortBy=Relevance
+[CharityWareURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware
+[WhyURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Why
 
 # VSTS Dashboard Widget Project Template
 
@@ -7,19 +13,13 @@
 
 <!--VSMM readme start-->
 
-[GitHubRepoURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate
-[GitHubRepoIssuesURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/issues
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/pulls
-[VisualStudioURL]: https://www.visualstudio.com/
-[VSMarketplaceUrl]: https://marketplace.visualstudio.com/search?term=trevellick&target=VS&sortBy=Relevance
-[CharityWareURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware
-[WhyURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Why
 
 A Visual Studio project template for Visual Studio Team Services dashboard widgets.
 
 If you like this **free** extension please take just a few seconds to give it a rating.
 
-Contributions welcome [here][GitHubRepoIssuesURL].
+Contributions welcome [here][GitHubRepoPullRequestsURL].
 
 See the [change log](CHANGELOG.md) for release history.
 
