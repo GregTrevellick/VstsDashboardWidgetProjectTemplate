@@ -23,7 +23,7 @@
     ],
     "contributions": [
         {
-            "id": "YourWidgetContributionsId",
+            "id": "Your_VSS.register_JavascriptFunctionCallParamaterValue",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
                 "ms.vss-dashboards-web.widget-catalog"
