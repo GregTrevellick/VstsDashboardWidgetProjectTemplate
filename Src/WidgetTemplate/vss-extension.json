@@ -31,12 +31,12 @@
             "properties": {
                 "name": "YourWidgetContributionsPropertiesName",
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
-                "catalogIconUrl:": "artefacts/CatalogIconUrl.png",
-                "previewImageUrl": "artefacts/PreviewIconUrl.png",
+                "catalogIconUrl:": "artefacts/CatalogIcon.png",
+                "previewImageUrl": "artefacts/PreviewIcon.png",
                 "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
                     {
-                        "rowSpan": 4,
+                        "rowSpan": 2,
                         "columnSpan": 4
                     }
                 ],
