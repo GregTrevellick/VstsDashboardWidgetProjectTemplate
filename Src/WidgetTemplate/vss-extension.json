@@ -1,18 +1,21 @@
 /*
+
  ALL COMMENTS BELOW ARE FROM THE TEMPLATE AUTHOR, NOT MICROSOFT.
 
  WHILST COMMENTS HAVE BEEN TAKEN FROM THE OFFICIAL MANIFEST REFERENCE THEY CANNOT BE GAURANTEED TO BE UP-TO-DATE WITH THE OFFICIAL MICROSOFT DOCUMENTATION.
 
- Manifest reference: https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts
- Additional help: https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts
+    Manifest reference: https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts
+
+    Additional help: https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts
 
  Hint: to easily remove all comments within this file using the Visual Studio IDE install this extension: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover
+
 */
 
 
 {
 
-// Required attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#required-attributes
+    // Required attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#required-attributes
 
     // The manifest version does not change
     "manifestVersion": 1,
@@ -36,7 +39,7 @@
         }
     ],
 
-// Discovery attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#discovery-attributes
+    // Discovery attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#discovery-attributes
 
     // A short headline description that appears at the top of the extension detail page in the VS marketplace website
     "description": "Your widget description (brief free-text description)",
