@@ -88,7 +88,7 @@
             "uri": "https://github.com/fabrikam-fiber-inc/tools"
         },
 
-        // ???
+        // The issues link appears in the Q&A tab of the extension detail page in the VS marketplace website.
         "issues": {
             "uri": "https://github.com/fabrikam-fiber-inc/tools/issues"
         }
