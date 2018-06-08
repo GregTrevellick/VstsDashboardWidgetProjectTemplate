@@ -11,6 +11,7 @@
 
 
 {
+
 // Required attributes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#required-attributes
 
     // The manifest version does not change
@@ -58,7 +59,7 @@
     ],
 
     "links": {
-        
+
         // ???
         "home": {
             "uri": "https://marketplace.visualstudio.com/items?itemName=YourWidgetPublisher.YourWidgetId-UniqueAmongExtensionsFromSamePublisher"
@@ -121,24 +122,22 @@
             // Properties - https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts#contributions
             "properties": {
 
-                // Appears RHS (header) when adding to the dashboard
+                // The title name that appears in the right hand side of screen when adding this extension to a dashboard
                 "name": "YourWidgetContributionsPropertiesName",
 
-                // Appears RHS (detail) when adding to the dashboard
+                // The description that appears in the right hand side of screen (underneath the name above) when adding this extension to a dashboard
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
 
-                // Catalog icon - 98px x 98px
+                // ??? Catalog icon - 98px x 98px
                 "catalogIconUrl:": "artefacts/CatalogIcon.png",
 
-                // Preview image - 330px x 160px
+                // ??? Preview image - 330px x 160px
                 "previewImageUrl": "artefacts/PreviewIcon.png",
 
+                // ???
                 "uri": "app/dashboard-widget.html",
 
-                // Sizes supported by your widget (first size in the array is the default). 
-                // One row/column corresponds to 160px. Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
-                // For example, a 3x2 widget will be 160*3+10*2 wide and 160*2+10*1 tall.
-                // The maximum supported size is 4x4. See the contributions properties url above.
+                // Sizes supported by your widget (first size in the array is the default). One row/column corresponds to 160px. The maximum supported size is 4x4. See the contributions properties url above.
                 "supportedSizes": [
                     {
                         "rowSpan": 2,
@@ -192,9 +191,9 @@
         }
     }
 
-    // Uncomment the galleryFlags element if you wish e.g. public, preview, paid - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#public-flag
+    // Uncomment the galleryFlags element if you wish - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#public-flag
     //"galleryFlags": [
-    //    "Public"
+    //    "Xxxxx"
     //]
 
     // Uncomment the badges element if you wish - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#supported-badge-services
