@@ -20,7 +20,7 @@
     // The manifest version does not change
     "manifestVersion": 1,
 
-    // Unique among extensions from the same publisher
+    // Unique among extensions from the same publisher (may only include letters, numbers, underscores, and dashes)
     "id": "YourWidgetId",
 
     // The version number of your extension, which you increment as necessary with each release
@@ -49,7 +49,7 @@
         "default": "app/Images/DefaultIcon.png"
     },
 
-    // Categories are NOT free text - see the manifest reference
+    // Categories are NOT free text - see the manifest reference (e.g. Build and release, Collaborate, Code, Developer samples, Plan and track, Integrate, and Test)
     "categories": [
         "Developer samples"
     ],
@@ -68,7 +68,12 @@
             "uri": "https://marketplace.visualstudio.com/items?itemName=YourWidgetPublisher.YourWidgetId-UniqueAmongExtensionsFromSamePublisher"
         },
 
-        // ???
+        // Support link appears in the bottom right hand side of the extension detail page in the VS marketplace website
+        "support": {
+            "uri": "https://www.fabrikam-fiber-inc.com/support"
+        },
+
+        // Get started link appears in the bottom right hand side of the extension detail page in the VS marketplace website
         "getstarted": {
             "uri": "https://www.fabrikam-fiber-inc.com/help/getstarted"
         },
@@ -76,11 +81,6 @@
         // Learn link appears in the bottom right hand side of the extension detail page in the VS marketplace website
         "learn": {
             "uri": "https://www.fabrikam-fiber-inc.com/features"
-        },
-
-        // Support link appears in the bottom right hand side of the extension detail page in the VS marketplace website
-        "support": {
-            "uri": "https://www.fabrikam-fiber-inc.com/support"
         },
 
         // ???
