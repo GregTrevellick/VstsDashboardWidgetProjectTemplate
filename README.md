@@ -37,6 +37,8 @@ When you create a new project...
 
 [Josh Garverick](https://marketplace.visualstudio.com/items?itemName=JoshGarverick.VSTSExtensionProjectTemplates)
 
+[Jonathan Mezach](https://jmezach.github.io/2016/04/18/creating-a-vsts-dashboard-widget/)
+
 ## License
 
 Software License is available [here](/LICENSE.txt).
