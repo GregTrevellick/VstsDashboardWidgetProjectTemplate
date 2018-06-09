@@ -3,8 +3,6 @@
 <head>
     <title>My Incredible Widget</title>
     <link href="Content/site.css" rel="stylesheet" />
-    <script src="Scripts/SDK/VSS.SDK.min.js"></script>
-    <script src="Scripts/app.js"></script>
 </head>
 <body>
     <div class="widget">
@@ -12,18 +10,27 @@
         <div class="content">
             <p>
                 To create your widget follow the official Microsoft documentation <a href="https://docs.microsoft.com/en-us/vsts/extend/?view=vsts
-" target="_blank">here</a> and <a href="https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts" target="_blank">here</a>, but it essentially boils down to the following steps:
+" target="_blank">here</a> and <a href="https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts" target="_blank">here</a>, but it essentially boils down to the following steps:</li>
                 <ol>
-                    <li>Replace the default html, css, images and javascript in this project with your own (can include typescript and javascript frameworks) and test locally just like any other html page</li>
-                    <li>Edit the manifest file (vss-extension.json) to suit your extension as per the <a href="https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts" target="_blank">official documentation</a></li>
-                    <li>Package and publish (privately or publicly) your extension as per the <a href="https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts" target="_blank">official documentation</a> (including editing the licence and overview markdown files located in the same directory ad the manifest file)</li>
-                </ol>
+                    <li>
+                        Edit the html and assets
             </p>
-            <p>
-                Give this project template a vote <a href="https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VstsDashboardWidgetProjectTemplate" target="_blank">here.</a>
+            </li>
+            <li>
+                Edit the <a href="https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts" target="_blank">manifest file</a> (vss-extension.json)</p>
+            </li>
+            <li>
+                <a href="https://docs.microsoft.com/en-us/vsts/extend/publish/overview?view=vsts" target="_blank">Package/publish</a> the widget (privately or publicly)</p>
+            </li>
+            <li>
+                <a href="https://marketplace.visualstudio.com/items?itemName=GregTrevellick.VstsDashboardWidgetProjectTemplate" target="_blank">Rate</a> this project template extension.
+            </li>
+            </ol>
             </p>
             Thank you and good luck!
         </div>
     </div>
+    <script src="Scripts/SDK/VSS.SDK.min.js"></script>
+    <script src="Scripts/app.js"></script>
 </body>
 </html>
