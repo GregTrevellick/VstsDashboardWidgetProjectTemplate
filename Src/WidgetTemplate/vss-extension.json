@@ -63,7 +63,7 @@
 
     "links": {
 
-        // ???
+        // Edit for your desired home page
         "home": {
             "uri": "https://marketplace.visualstudio.com/items?itemName=YourWidgetPublisher.YourWidgetId-UniqueAmongExtensionsFromSamePublisher"
         },
@@ -83,7 +83,7 @@
             "uri": "https://www.fabrikam-fiber-inc.com/features"
         },
 
-        // ???
+        // Edit for your repository as desired
         "repository": {
             "uri": "https://github.com/fabrikam-fiber-inc/tools"
         },
@@ -132,13 +132,13 @@
                 // The description that appears in the right hand side of screen (underneath the name above) when adding this extension to a dashboard
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
 
-                // ??? Catalog icon - 98px x 98px
+                // Catalog icon - 98px x 98px
                 "catalogIconUrl:": "artefacts/CatalogIcon.png",
 
-                // ??? Preview image - 330px x 160px
+                // Preview image - 330px x 160px
                 "previewImageUrl": "artefacts/PreviewIcon.png",
 
-                // ??? Rename as you wish
+                // Rename as you wish
                 "uri": "app/dashboard-widget.html",
 
                 // Sizes supported by your widget (first size in the array is the default). One row/column corresponds to 160px. The maximum supported size is 4x4. See the contributions properties url above.
