@@ -174,7 +174,7 @@
                 ],
 
                 // Options for the extension - https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts#step-8-configure-more-optional
-                "isNameConfigurable": true,
+                //"isNameConfigurable": true,
 
                 // Scopes - https://docs.microsoft.com/en-us/vsts/extend/develop/manifest?view=vsts#scopes
                 "supportedScopes": [ "project_team" ]
