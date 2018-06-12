@@ -8,5 +8,4 @@ Individual releases are tagged as such in GitHub.
 
 ## 1.0.2
 **2018-06-12**
-- [x] Initial release
-
+- [x] [Initial release](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/releases/tag/1.0.2)
