@@ -10,3 +10,4 @@ Individual releases are tagged as such in GitHub.
 **2018-06-12**
 - [x] Initial release
 
+<!--tfx extension create --manifest-globs vss-extension.json -->
