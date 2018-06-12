@@ -135,7 +135,7 @@
                 // Catalog icon - 98px x 98px
                 "catalogIconUrl:": "artefacts/CatalogIcon.png",
 
-                // Preview image - 330px x 160px
+                // Preview image - 330px x 160px (used for TFS 2015 Update 3)
                 "previewImageUrl": "artefacts/PreviewIcon.png",
 
                 // Rename as you wish
