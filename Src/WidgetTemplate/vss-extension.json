@@ -126,17 +126,17 @@
             // Properties - https://docs.microsoft.com/en-us/vsts/extend/develop/add-dashboard-widget?view=vsts#contributions
             "properties": {
 
-                // The title name that appears in the right hand side of screen when adding this extension to a dashboard
-                "name": "YourWidgetContributionsPropertiesName",
+                // The title name that appears in the right hand side of screen when adding this extension to a dashboard and in the widget header (grey font) when loading the dashboard page itself
+                "name": "Your Widget Name (Contributions)",
 
                 // The description that appears in the right hand side of screen (underneath the name above) when adding this extension to a dashboard
-                "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
+                "description": "Your brief free-text widget contributions properties description",
 
                 // Catalog icon - 98px x 98px
                 "catalogIconUrl:": "app/Images/CatalogIcon.png",
 
                 // Preview image that appears in list of widgets when adding a widget to a dashboard
-//gregt 330px x 160px (used for TFS 2015 Update 3)
+                //gregt 330px x 160px (used for TFS 2015 Update 3)
                 "previewImageUrl": "app/Images/DefaultIcon.png",
 
                 // Rename as you wish
