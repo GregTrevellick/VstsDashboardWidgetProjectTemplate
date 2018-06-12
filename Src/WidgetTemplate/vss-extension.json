@@ -133,10 +133,10 @@
                 "description": "YourWidgetContributionsPropertiesDescription (brief free-text description)",
 
                 // Catalog icon - 98px x 98px
-                "catalogIconUrl:": "app/Images/CatalogIcon.png",
+                "catalogIconUrl:": "artefacts/CatalogIcon.png",
 
                 // Preview image - 330px x 160px (used for TFS 2015 Update 3)
-                "previewImageUrl": "app/Images/PreviewIcon.png",
+                "previewImageUrl": "artefacts/PreviewIcon.png",
 
                 // Rename as you wish
                 "uri": "app/dashboard-widget.html",
