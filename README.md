@@ -21,8 +21,6 @@ If you like this **free** extension please take just a few seconds to give it a 
 
 Contributions welcome [here][GitHubRepoPullRequestsURL].
 
-See the [change log](CHANGELOG.md) for release history.
-
 When you create a new project...
 
 ![](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/Src/WidgetTemplate.VsixPackage/Resources/screen0.png?raw=true)
