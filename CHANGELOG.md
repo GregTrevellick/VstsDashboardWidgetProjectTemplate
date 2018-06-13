@@ -6,6 +6,6 @@ These are the incremental changes to each version that has been released on the 
 
 Individual releases are tagged as such in GitHub.
 
-## 1.0.2
+## 1.0.3
 **2018-06-12**
-- [x] [Initial release](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/releases/tag/1.0.2)
+- [x] [Initial release](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/releases/tag/1.0.3)
