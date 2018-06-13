@@ -44,12 +44,12 @@
 		<Reference Include="System.Xml"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="Properties\AssemblyInfo.cs" />
-		<Compile Include="app\*.*" />
-		<Compile Include="app\*\*.*" />
-		<Compile Include="app\*\*\*.*" />
-		<Compile Include="artefacts\*.*" />
-		<Compile Include="vss-extension.json" />
+		<None Include="Properties\AssemblyInfo.cs" />
+		<None Include="app\*.*" />
+		<None Include="app\*\*.*" />
+		<None Include="app\*\*\*.*" />
+		<None Include="artefacts\*.*" />
+		<None Include="vss-extension.json" />
 	</ItemGroup>
 	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
