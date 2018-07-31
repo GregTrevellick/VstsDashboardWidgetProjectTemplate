@@ -8,6 +8,9 @@
 
 # VSTS Dashboard Widget Project Template
 
+<!--BadgesSTART-->
+<!--BadgesEND-->
+
 [![Licence](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 [![][VersionNumberBadgeURL]][VSMarketplaceUrl]
 
