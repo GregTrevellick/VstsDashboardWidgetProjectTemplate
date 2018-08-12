@@ -23,9 +23,6 @@
 [![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)<!--BadgesEND-->
 
-[![Licence](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
-[![][VersionNumberBadgeURL]][VSMarketplaceUrl]
-
 <!--VSMM readme start-->
 
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/pulls
