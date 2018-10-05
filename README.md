@@ -17,6 +17,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/VstsDashboardWidgetProjectTemplate/badge)](https://www.codefactor.io/repository/github/GregTrevellick/VstsDashboardWidgetProjectTemplate)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/VstsDashboardWidgetProjectTemplate.svg)](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate)
 [![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/VstsDashboardWidgetProjectTemplate.svg)](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate)
+[![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/VstsDashboardWidgetProjectTemplate.svg)](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/VstsDashboardWidgetProjectTemplate.svg)](https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/pulls)
 [![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=VstsDashboardWidgetProjectTemplate&metric=alert_status)](https://sonarcloud.io/dashboard?id=VstsDashboardWidgetProjectTemplate)
 [![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=VstsDashboardWidgetProjectTemplate&metric=bugs)](https://sonarcloud.io/component_measures?id=VstsDashboardWidgetProjectTemplate&metric=bugs)
