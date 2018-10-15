@@ -1,1 +1,2 @@
-Src\HelloWorldVstsExtension\sdk\scripts\VSS.SDK*
+Src/WidgetTemplate/app/Scripts/SDK/VSS.SDK.js
+Src/WidgetTemplate/app/Scripts/SDK/VSS.SDK.min.js
