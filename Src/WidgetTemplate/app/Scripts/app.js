@@ -16,8 +16,8 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
             load: function (widgetSettings) {
                 return WidgetHelpers.WidgetStatusHelper.Success();
             }
-        }
-    }
+        };
+    };
 
     VSS.register("Your_VSS.register_JavascriptFunctionCallParamaterValue", registerWidget);
 
