@@ -6,7 +6,7 @@
 [CharityWareURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware
 [WhyURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Why
 
-# VSTS Dashboard Widget Project Template
+# Azure DevOps (VSTS) Dashboard Widget Project Template
 
 <!--BadgesSTART-->
 [![Read Me Synchronizer](https://img.shields.io/badge/-powered%20by%20read%20me%20synchronizer-brightgreen.svg)](https://github.com/undefined/ReadMeSynchronizer)
@@ -69,7 +69,7 @@
 
 [GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/pulls
 
-A Visual Studio project template for Visual Studio Team Services dashboard widgets.
+A Visual Studio project template for Azure DevOps (formerly Visual Studio Team Services) dashboard widgets.
 
 If you like this **free** extension please take just a few seconds to give it a rating.
 
