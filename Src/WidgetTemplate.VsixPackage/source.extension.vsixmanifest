@@ -10,7 +10,7 @@
     <ReleaseNotes>https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate/blob/master/CHANGELOG.md</ReleaseNotes>
     <Icon>Resources\VsixExtensionPreview_90x90.png</Icon>
     <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
-    <Tags>tfs, vsts, dashboard, widget, template, project template, vsix</Tags>
+    <Tags>tfs; vsts; azure dev ops; azure devops; ado; visual studio team services; dashboard; widget; dashboard widget; template; project template; vsix; extensibility;</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
