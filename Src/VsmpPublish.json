@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "assetFiles": [ //images used in VsmpReadMe.md
+    {
+      "pathOnDisk": "..\\Src\\WidgetTemplate.VsixPackage\\Resources\\screen0.png",
+      "targetPath": "screen0.png"
+    },
+    {
+      "pathOnDisk": "..\\Src\\WidgetTemplate.VsixPackage\\Resources\\screen1.png",
+      "targetPath": "screen1.png"
+    }
+  ],
+  "categories": [
+    "other templates",
+    "visual studio extensions"
+  ],
+  "identity": {
+    "internalName": "VstsDashboardWidgetProjectTemplate"
+  },
+  "overview": "..\\Src\\VsmpReadMe.md", //vsmp page content   D:\\_Dgit\\_TEMPLATES\\repub\\VstsDashboardWidgetProjectTemplate\\Src\\VsmpReadMe.md
+  "priceCategory": "free",
+  "publisher": "GregTrevellick",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/GregTrevellick/VstsDashboardWidgetProjectTemplate"
+}

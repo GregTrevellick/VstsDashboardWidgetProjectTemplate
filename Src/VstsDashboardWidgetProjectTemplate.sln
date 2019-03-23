@@ -13,6 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\LICENSE.txt = ..\LICENSE.txt
 		..\README.md = ..\README.md
 		..\renovate.json = ..\renovate.json
+		VsmpPublish.txt = VsmpPublish.txt
+		VsmpPublish.json = VsmpPublish.json
+		VsmpReadMe.md = VsmpReadMe.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetTemplate", "WidgetTemplate\WidgetTemplate.csproj", "{FA2AD93F-4E77-47CD-AF81-790A21F364E2}"
