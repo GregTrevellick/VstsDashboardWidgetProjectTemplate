@@ -1,5 +1,11 @@
-# https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line?view=vs-2017
+echo off
 
-cd D:\_Dgit\OpenInApp.Launcher\src\packages\Microsoft.VSSDK.BuildTools.15.8.3252\tools\vssdk\bin
+# CD D:\_Dgit\OpenInApp.Launcher\src\packages\Microsoft.VSSDK.BuildTools.15.8.3252\tools\vssdk\bin
+CD C:\Program Files\Microsoft Visual Studio\2022\Preview\VSSDK\VisualStudioIntegration\Tools\Bin
 
-.\VsixPublisher.exe publish  -payload "D:\_Dgit\_TEMPLATES\repub\VstsDashboardWidgetProjectTemplate\Src\WidgetTemplate.VsixPackage\bin\Debug\WidgetTemplate.VsixPackage.vsix"  -publishManifest "D:\_Dgit\_TEMPLATES\repub\VstsDashboardWidgetProjectTemplate\Src\VsmpPublish.json"  -personalAccessToken "vsmp_pat"
+# .\VsixPublisher.exe publish -payload "D:\_Dgit\_TEMPLATES\repub\VstsDashboardWidgetProjectTemplate\Src\WidgetTemplate.VsixPackage\bin\Debug\WidgetTemplate.VsixPackage.vsix"  -publishManifest "D:\_Dgit\_TEMPLATES\repub\VstsDashboardWidgetProjectTemplate\Src\VsmpPublish.json"  -personalAccessToken "vsmp_pat"
+VsixPublisher.exe publish -payload "D:\_git\VstsDashboardWidgetProjectTemplate\Src\WidgetTemplate.VsixPackage\bin\Debug\WidgetTemplate.VsixPackage.vsix" -publishManifest "D:\_git\VstsDashboardWidgetProjectTemplate\Src\VsmpPublish.json" -personalAccessToken "pat"
+
+REM https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line?view=vs-2017
+
+REM https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line?view=vs-2019

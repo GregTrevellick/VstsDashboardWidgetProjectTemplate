@@ -1,20 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{795FC532-D57B-4173-9FED-3AB15135FD5E}"
 	ProjectSection(SolutionItems) = preProject
+		..\.bettercodehub.yml = ..\.bettercodehub.yml
+		..\.codebeatignore = ..\.codebeatignore
 		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
+		..\.hound.yml = ..\.hound.yml
+		..\.sonarcloud.properties = ..\.sonarcloud.properties
 		..\.travis.yml = ..\.travis.yml
 		..\appveyor.yml = ..\appveyor.yml
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
 		..\CHANGELOG.md = ..\CHANGELOG.md
 		..\LICENSE.txt = ..\LICENSE.txt
 		..\README.md = ..\README.md
 		..\renovate.json = ..\renovate.json
-		VsmpPublish.txt = VsmpPublish.txt
 		VsmpPublish.json = VsmpPublish.json
+		VsmpPublish.txt = VsmpPublish.txt
 		VsmpReadMe.md = VsmpReadMe.md
 	EndProjectSection
 EndProject
